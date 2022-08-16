@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    background-color: hsl(218, 43%, 84%)
+}
+.container{
+    display: flex;
+    flex-flow: wrap;
+    width: 20%;
+    margin: 100px auto;
+    border: 3px solid white;
+    border-radius: 15px;
+    background-color: white;
+    
+}
+
+.container img{
+    overflow: auto;
+    margin:15px;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+
+.container__title{
+    font-family: Outfit;
+    font-size: larger;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 30px;
+ 
+}
+.container__description{
+    font-family: Outfit;
+    font-size: small;
+    font-weight: 400;
+    color: gray;
+    text-align: center;
+    padding: 10px 40px;
+    margin-bottom: 30px;
+   
+}
